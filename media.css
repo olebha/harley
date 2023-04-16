@@ -1,0 +1,72 @@
+@media (max-width: 1000px){
+    .container{
+        width: 100%;
+    }
+    .section-title{
+        font-size: 30px;
+    }
+    .header-content img{
+        width: 50%;
+    }
+    .header-sub-title{
+        font-size: 30px ;
+    }
+    .tools-content{
+        flex-direction: column;
+    }
+    .tools-card{
+        width: 100%;
+    }
+    .new-model-content{
+        flex-direction:column-reverse ;
+        text-align: center;
+    }
+    .model-left, .model-right , .model-text{
+        width: 100%;
+        padding: 0;
+        flex-grow: 0;
+    }
+    .model-left h2{
+        width: 100%;
+    }
+    .model-left a{
+        margin: 50px auto;
+    }
+    .gallery-card{
+        width: 100%;
+    }
+    .gallery-content{
+        flex-direction: column;
+    }
+    .faq-content{
+        flex-direction: column;
+        height: 100%;
+    }
+    .faq-card{
+        width: 100%;
+    }
+    .models-content{
+        flex-direction: column;
+    }
+    .models-card{
+        width: 100%;
+    }
+    .poster-content{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .poster-left, .poster-right, .poster-text{
+        width: 100%;
+        flex-grow: 0;
+        padding: 0;
+    }
+    .poster-right{
+        height: 100%;
+    }
+    .poster a{
+        margin: auto;
+        margin-top:25px;
+        margin-bottom: 20px;
+    }
+    
+}
